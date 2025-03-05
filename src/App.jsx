@@ -6,6 +6,7 @@ import AccordionApp from "./AccordionApp.jsx";
 import RatingStarApp from "./RatingStarApp.jsx";
 import NavigationApp from "./NavigationApp.jsx";
 import CarouselApp from "./CarouselApp.jsx";
+import CountdownApp from "./CountdownApp.jsx";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
 
       {/* Carousel App */}
       <CarouselApp />
+
+      {/* Countdown Timer */}
+      <CountdownApp />
     </div>
   );
 }
