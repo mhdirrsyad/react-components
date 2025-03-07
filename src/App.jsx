@@ -7,33 +7,37 @@ import RatingStarApp from "./RatingStarApp.jsx";
 import NavigationApp from "./NavigationApp.jsx";
 import CarouselApp from "./CarouselApp.jsx";
 import CountdownApp from "./CountdownApp.jsx";
+import LiveCharacterApp from "./LiveCharacterApp.jsx";
 
 function App() {
   return (
     <div className="divide-y-2 divide-gray-200 max-w-4xl mx-auto">
       {/* Todolist */}
-      <TodoApp />
+      {/*<TodoApp />*/}
 
       {/* Modal */}
-      <ModalApp />
+      {/*<ModalApp />*/}
 
       {/* Toggle */}
-      <ToggleApp />
+      {/*<ToggleApp />*/}
 
       {/* Accordion */}
-      <AccordionApp />
+      {/*<AccordionApp />*/}
 
       {/* Rating star */}
-      <RatingStarApp />
+      {/*<RatingStarApp />*/}
 
       {/* Navigation */}
-      <NavigationApp />
+      {/*<NavigationApp />*/}
 
       {/* Carousel App */}
-      <CarouselApp />
+      {/*<CarouselApp />*/}
 
       {/* Countdown Timer */}
-      <CountdownApp />
+      {/*<CountdownApp />*/}
+
+      {/* Live Character Counter */}
+      <LiveCharacterApp />
     </div>
   );
 }
