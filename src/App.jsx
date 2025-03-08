@@ -1,13 +1,14 @@
 import "./App.css";
-import TodoApp from "./TodoApp.jsx";
-import ModalApp from "./ModalApp.jsx";
-import ToggleApp from "./ToggleApp.jsx";
-import AccordionApp from "./AccordionApp.jsx";
-import RatingStarApp from "./RatingStarApp.jsx";
-import NavigationApp from "./NavigationApp.jsx";
-import CarouselApp from "./CarouselApp.jsx";
-import CountdownApp from "./CountdownApp.jsx";
-import LiveCharacterApp from "./LiveCharacterApp.jsx";
+import TodoApp from "./apps/TodoApp.jsx";
+import ModalApp from "./apps/ModalApp.jsx";
+import ToggleApp from "./apps/ToggleApp.jsx";
+import AccordionApp from "./apps/AccordionApp.jsx";
+import RatingStarApp from "./apps/RatingStarApp.jsx";
+import NavigationApp from "./apps/NavigationApp.jsx";
+import CarouselApp from "./apps/CarouselApp.jsx";
+import CountdownApp from "./apps/CountdownApp.jsx";
+import LiveCharacterApp from "./apps/LiveCharacterApp.jsx";
+import AutocompleteSearchApp from "./apps/AutocompleteSearchApp.jsx";
 
 function App() {
   return (
@@ -37,7 +38,10 @@ function App() {
       {/*<CountdownApp />*/}
 
       {/* Live Character Counter */}
-      <LiveCharacterApp />
+      {/*<LiveCharacterApp />*/}
+
+      {/* Autocomplete Search */}
+      <AutocompleteSearchApp />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ModalContainer from "./components/modal-components/ModalContainer.jsx";
+import ModalContainer from "../components/modal-components/ModalContainer.jsx";
 
 const ModalApp = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,5 +1,5 @@
-import Timer from "./components/countdown-components/Timer.jsx";
-import Button from "./components/countdown-components/Button.jsx";
+import Timer from "../components/countdown-components/Timer.jsx";
+import Button from "../components/countdown-components/Button.jsx";
 import { useEffect, useState } from "react";
 
 const CountdownApp = () => {

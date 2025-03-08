@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router";
-import Navbar from "./components/navigation-components/Navbar.jsx";
-import Home from "./components/navigation-components/Home.jsx";
-import About from "./components/navigation-components/About.jsx";
-import Portfolio from "./components/navigation-components/Portfolio.jsx";
+import Navbar from "../components/navigation-components/Navbar.jsx";
+import Home from "../components/navigation-components/Home.jsx";
+import About from "../components/navigation-components/About.jsx";
+import Portfolio from "../components/navigation-components/Portfolio.jsx";
 
 const NavigationApp = () => {
   return (

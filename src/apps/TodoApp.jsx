@@ -1,6 +1,6 @@
-import AddTodo from "./components/todolist-components/AddTodo.jsx";
+import AddTodo from "../components/todolist-components/AddTodo.jsx";
 import { useState } from "react";
-import TodoList from "./components/todolist-components/TodoList.jsx";
+import TodoList from "../components/todolist-components/TodoList.jsx";
 
 const TodoApp = () => {
   const [todoData, setTodoData] = useState([]);

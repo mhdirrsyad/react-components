@@ -1,7 +1,7 @@
-import ImageSlider from "./components/carousel-components/ImageSlider.jsx";
-import imageData from "./data/imageData.js";
-import rightIcon from "./assets/icons/chevron_right_icon.svg";
-import leftIcon from "./assets/icons/chevron_left_icon.svg";
+import ImageSlider from "../components/carousel-components/ImageSlider.jsx";
+import imageData from "../data/imageData.js";
+import rightIcon from "../assets/icons/chevron_right_icon.svg";
+import leftIcon from "../assets/icons/chevron_left_icon.svg";
 import { useEffect, useState } from "react";
 
 const CarouselApp = () => {

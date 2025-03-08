@@ -1,5 +1,5 @@
-import faqData from "./data/faqData.js";
-import AccordionSection from "./components/accordion-components/AccordionSection.jsx";
+import faqData from "../data/faqData.js";
+import AccordionSection from "../components/accordion-components/AccordionSection.jsx";
 import { useState } from "react";
 
 const AccordionApp = () => {

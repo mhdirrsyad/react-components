@@ -1,4 +1,4 @@
-import StarIcon from "./components/star-components/StarIcon.jsx";
+import StarIcon from "../components/star-components/StarIcon.jsx";
 
 const RatingStarApp = () => {
   return (
