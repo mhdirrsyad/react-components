@@ -9,6 +9,7 @@ import CarouselApp from "./apps/CarouselApp.jsx";
 import CountdownApp from "./apps/CountdownApp.jsx";
 import LiveCharacterApp from "./apps/LiveCharacterApp.jsx";
 import AutocompleteSearchApp from "./apps/AutocompleteSearchApp.jsx";
+import DarkModeApp from "./apps/DarkModeApp.jsx";
 
 function App() {
   return (
@@ -41,7 +42,10 @@ function App() {
       {/*<LiveCharacterApp />*/}
 
       {/* Autocomplete Search */}
-      <AutocompleteSearchApp />
+      {/*<AutocompleteSearchApp />*/}
+
+      {/* Darkmode App */}
+      <DarkModeApp />
     </div>
   );
 }
