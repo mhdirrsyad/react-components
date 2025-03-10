@@ -7,6 +7,8 @@ const DarkModeApp = () => {
   const field = localStorage.getItem("theme");
   const [theme, setTheme] = useState(field || "light");
 
+  console.log(field);
+
   const handleToggleTheme = (newTheme) => {
     setTheme(newTheme);
   };
@@ -15,9 +17,7 @@ const DarkModeApp = () => {
     const darkModeSystem = window.matchMedia("(prefers-color-scheme: dark)");
 
     if (darkModeSystem.matches) {
-      setTheme("dark");
-    } else {
-      setTheme("light");
+      setTheme(field ? localStorage.getItem("theme") : "dark");
     }
   }, []);
 
